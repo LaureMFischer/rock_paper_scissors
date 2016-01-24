@@ -1,6 +1,5 @@
-require 'pry'
-require_relative 'game'
-require_relative 'player'
+require_relative 'lib/game'
+require_relative 'lib/player'
 
 new_game = Game.new(ARGV[0].to_s)
 new_player = Player.new
